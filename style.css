@@ -63,7 +63,7 @@
 }
 
 #info {
-    margin: 2rem 0 0 0;
+    margin-top: .8rem;
     height: 3rem;
     background-color: steelblue;
     display: flex;
@@ -86,7 +86,7 @@
     justify-content: center;
     height: 4rem;
     margin-top: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     background-color: steelblue;
     
 }
