@@ -5,7 +5,7 @@ var jumping = 0;
 var counter = 0;
 
 hole.addEventListener('animationiteration', () => {
-    var random = -((Math.random()*600)+150);
+    var random = -((Math.random()*300)+150);
     hole.style.top = random + "px";
     counter++;
 });
@@ -16,10 +16,10 @@ setInterval(function(){
     }
     var blockLeft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
     var holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
-    var cTop = -(1000-characterTop);
-    if((characterTop>980)||((blockLeft<20)&&(blockLeft>-50)&&((cTop<holeTop)||(cTop>holeTop+130)))){
+    var cTop = -(500-characterTop);
+    if((characterTop>480)||((blockLeft<20)&&(blockLeft>-50)&&((cTop<holeTop)||(cTop>holeTop+130)))){
         alert("Game over. Score: "+(counter-1));
-        character.style.top = 400 + "px";
+        character.style.top = 100 + "px";
         counter=0;
     }
 },10);

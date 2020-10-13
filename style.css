@@ -4,7 +4,7 @@
 }
 #game {
     width: 800px;
-    height: 1000px;
+    height: 500px;
     border: 1px solid black;
     margin: auto;
     overflow: hidden;
@@ -15,7 +15,7 @@
 }
 #block {
     width: 90px;
-    height: 1000px;
+    height: 500px;
     background-image: url(astroids.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,13 +45,13 @@
     background-size: cover;
     background-position: 0 0;
     position: absolute;
-    top: 400px;
+    top: 100px;
     border-radius: 50%;
 }
 
-@media (max-width: 341px) {
+/* @media (max-width: 341px) {
     #game {
         width: 341px;
         height: 1000px;
     }
-}
+} */
