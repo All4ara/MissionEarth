@@ -15,14 +15,14 @@
 }
 #block {
     width: 90px;
-    height: 600px;
+    height: 500px;
     background-image: url(astroids.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30%;
     position: relative;
     left: 700px;
-    animation: block 3s infinite linear;
+    animation: block 4s infinite linear;
 }
 @keyframes block {
     0%{left: 800px;}
@@ -35,7 +35,7 @@
     position: relative;
     left: 400px;
     top: -600px;
-    animation: block 3s infinite linear;
+    animation: block 4s infinite linear;
 }
 #character {
     width: 80px;
@@ -51,8 +51,8 @@
 
  @media (max-width: 576px) {
     #game {
-        width: 350px;
-        height: 600px;
+        width: 370px;
+        
     }
     
 }
