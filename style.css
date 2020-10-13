@@ -15,7 +15,7 @@
 }
 #block {
     width: 90px;
-    height: 500px;
+    height: 600px;
     background-image: url(astroids.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,11 +30,11 @@
 }
 #hole {
     width: 90px;
-    height: 100px;
+    height: 150px;
     background-image: url("https://content.invisioncic.com/Mwarframe/monthly_2018_12/D3B444F9-1870-4B04-9470-DA9B95521E4D.gif.e2966067ab39dd50a7ea95b78f73059d.gif");
     position: relative;
     left: 400px;
-    top: -500px;
+    top: -600px;
     animation: block 3s infinite linear;
 }
 #character {
@@ -49,9 +49,10 @@
     border-radius: 50%;
 }
 
- @media (max-width: 341px) {
+ @media (max-width: 576px) {
     #game {
-        width: 341px;
-        height: 400px;
+        width: 350px;
+        height: 600px;
     }
+    
 }
