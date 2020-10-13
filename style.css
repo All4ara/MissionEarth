@@ -22,7 +22,7 @@
     border-radius: 30%;
     position: relative;
     left: 700px;
-    animation: block 4s infinite linear;
+    animation: block 3s infinite linear;
 }
 @keyframes block {
     0%{left: 800px;}
@@ -35,7 +35,7 @@
     position: relative;
     left: 400px;
     top: -600px;
-    animation: block 4s infinite linear;
+    animation: block 3s infinite linear;
 }
 #character {
     width: 80px;
@@ -54,5 +54,10 @@
         width: 370px;
         
     }
-    
+    #block {
+        animation: block 4s infinite linear;
+    }
+    #hole {
+        animation: block 4s infinite linear;
+    }
 }
