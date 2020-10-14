@@ -75,11 +75,13 @@ body {
 }
 
 #info p {
+    font-family: 'Press Start 2P';
     font-weight: bold;
     color: white;
     margin-top: 1rem;
 }
 #info h4 {
+    font-family: 'Press Start 2P';
     margin: .7rem 0;
     font-size: 1.2rem;
 }
